@@ -32,6 +32,8 @@ $$
 
 with constraints to ensure the maximum displacement satisfies **$$\|D(x)\| \leq d_{\text{max}}$$**, preventing extreme deformations. The output is interpolated using linear methods for images and nearest-neighbor methods for labels, ensuring consistency in segmentation tasks. This method generates natural spatial variability while preserving anatomical integrity, making it suitable for tasks like medical image segmentation.
 
+### Solution Workflow
+
 ## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！)
 
 
