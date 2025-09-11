@@ -6,7 +6,7 @@
 
 ### Random Deformation
 
-The random deformation module applies smooth deformation fields to medical images and labels, ensuring realistic and anatomically plausible augmentations for deep learning training. A smooth deformation field **D(x)** is generated as the sum of local displacements across all labeled structures. For a labeled structure with mask **M(x)**, the displacement at voxel **x** is computed as:
+The random deformation module applies smooth deformation fields to medical images and labels, ensuring realistic and anatomically plausible augmentations for deep learning training. A smooth deformation field **$$D(x)$$** is generated as the sum of local displacements across all labeled structures. For a labeled structure with mask **$$M(x)$$**, the displacement at voxel **x** is computed as:
 
 $$
 d(x) = w(x) \cdot \left[ S(x) \cdot (1 + r_s) + r_d \right],
@@ -18,7 +18,7 @@ $$
 w(x) = \exp\left(-\frac{\|x - c\|}{\lambda}\right),
 $$
 
-with **c** as the center of mass of the structure and **λ** as a weighting decay factor. The term **S(x)** represents the relative position of voxel **x** to the center **c**, **r_s** is a random scaling factor, and **r_d** is a random displacement vector. The deformation field **D(x)** is smoothed using multi-scale Gaussian filters:
+with **c** as the center of mass of the structure and **λ** as a weighting decay factor. The term **$$S(x)$$** represents the relative position of voxel **x** to the center **c**, **$$r_s$$** is a random scaling factor, and **$$r_d$$** is a random displacement vector. The deformation field **$$D(x)$$** is smoothed using multi-scale Gaussian filters:
 
 $$
 D(x) = \text{Gaussian}(D(x), \sigma_1) + \text{Gaussian}(D(x), \sigma_2),
