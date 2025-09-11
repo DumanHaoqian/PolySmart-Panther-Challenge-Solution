@@ -2,9 +2,6 @@
 *🎉 We got the 4th Place of Participation and be selected in Honorable Mention*<br>
 *Our Checkpoints* **[Task1](https://drive.google.com/drive/folders/1HypwAE4xHDwy762LLGRCYTSBcYfADJRA?usp=sharing) & [Task2](https://drive.google.com/drive/folders/1HypwAE4xHDwy762LLGRCYTSBcYfADJRA?usp=sharing)**
 
-
-## Panther Challenge: Pancreatic Tumor MRI Images Segmentation
-
 ## Task1: Random Deformation Augmented ResEncUNet with Dice Loss only and 3 folds Ensambale(PC-task1-Final)
 
 
