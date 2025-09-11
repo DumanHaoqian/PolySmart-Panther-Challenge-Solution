@@ -24,7 +24,7 @@ $$
 D(x) = \text{Gaussian}(D(x), \sigma_1) + \text{Gaussian}(D(x), \sigma_2),
 $$
 
-where **σ_1** and **σ_2** are the coarse and fine smoothing scales, respectively. The final deformation is applied to the image or label using a displacement field transform:
+where **$$σ_1$$** and **$$σ_2$$** are the coarse and fine smoothing scales, respectively. The final deformation is applied to the image or label using a displacement field transform:
 
 $$
 T(x) = x + D(x),
