@@ -7,7 +7,7 @@
 ## Task1: Random Deformation Augmented ResEncUNet with Dice Loss only and 3 folds Ensambale(PC-task1-Final)
 
 
-## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！(＾Ｕ＾)ノ~)
+## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！)
 
 
 ## Leadearboard 
