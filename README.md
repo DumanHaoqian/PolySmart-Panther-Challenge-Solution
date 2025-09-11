@@ -33,11 +33,11 @@ $$
 with constraints to ensure the maximum displacement satisfies **$$\|D(x)\| \leq d_{\text{max}}$$**, preventing extreme deformations. The output is interpolated using linear methods for images and nearest-neighbor methods for labels, ensuring consistency in segmentation tasks. This method generates natural spatial variability while preserving anatomical integrity, making it suitable for tasks like medical image segmentation.
 
 ### Solution Workflow
-
+![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task1.png)
 ## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！)
 
 ### Solution Workflow
-
+![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2.png)
 ## Leadearboard 
 **We are at the 5th place: PC-task1-Final**
 **![Leader Board of Task1](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB1.png)**<br>
