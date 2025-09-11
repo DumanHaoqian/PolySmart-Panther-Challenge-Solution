@@ -16,3 +16,15 @@
 **![Leader Board of Task1](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB1.png)**<br>
 **We are at the 5th place: 原神，启动！(＾Ｕ＾)ノ~**
 **![Leader Board of Task2](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB2.png)**<br>
+
+## References
+
+This project builds upon the following repositories:
+
+1. [PANTHER_baseline](https://github.com/DIAGNijmegen/PANTHER_baseline)  
+   Licensed under [MIT License](https://github.com/DIAGNijmegen/PANTHER_baseline/blob/main/LICENSE).  
+   Original repository focuses on baseline methods for pancreas tumor segmentation.
+
+2. [nnUNet](https://github.com/MIC-DKFZ/nnUNet)  
+   Licensed under [Apache 2.0 License](https://github.com/MIC-DKFZ/nnUNet/blob/master/LICENSE).  
+   nnUNet is a self-adapting framework for biomedical image segmentation.
