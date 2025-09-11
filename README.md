@@ -22,7 +22,7 @@
 This project builds upon the following repositories:
 
 1. [PANTHER_baseline](https://github.com/DIAGNijmegen/PANTHER_baseline)  
-   Licensed under [MIT License](https://github.com/DIAGNijmegen/PANTHER_baseline/blob/main/LICENSE).  
+   Licensed under [Apache 2.0 License](https://github.com/MIC-DKFZ/nnUNet/blob/master/LICENSE).  
    Original repository focuses on baseline methods for pancreas tumor segmentation.
 
 2. [nnUNet](https://github.com/MIC-DKFZ/nnUNet)  
