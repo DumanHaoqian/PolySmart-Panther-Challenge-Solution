@@ -1,9 +1,6 @@
 # PolySmart-Panther-Challenge-Solution
 *🎉 We got the 4th Place of Participation and be selected in Honorable Mention*<br>
-**We are at the 5th place: PC-task1-Final**
-**![Leader Board of Task1](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB1.png)**<br>
-**We are at the 5th place: 原神，启动！(＾Ｕ＾)ノ~**
-**![Leader Board of Task2](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB2.png)**<br>
+
 
 ## Panther Challenge: Pancreatic Tumor MRI Images Segmentation
 
@@ -13,4 +10,8 @@
 ## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！(＾Ｕ＾)ノ~)
 
 
-
+## Leadearboard 
+**We are at the 5th place: PC-task1-Final**
+**![Leader Board of Task1](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB1.png)**<br>
+**We are at the 5th place: 原神，启动！(＾Ｕ＾)ノ~**
+**![Leader Board of Task2](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB2.png)**<br>
