@@ -40,7 +40,7 @@ with constraints to ensure the maximum displacement satisfies **$$\|D(x)\| \leq 
 ![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2.png)
 
 ### What we've tried on the performance
-![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2.png)
+![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2_performance.png)
 
 ## Leadearboard 
 **We are at the 5th place: PC-task1-Final**
