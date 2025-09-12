@@ -2,10 +2,7 @@
 *🎉 We got the 4th Place of Participation and be selected in Honorable Mention*<br>
 *Our Checkpoints* **[Task1](https://drive.google.com/drive/folders/1HypwAE4xHDwy762LLGRCYTSBcYfADJRA?usp=sharing) & [Task2](https://drive.google.com/drive/folders/1HypwAE4xHDwy762LLGRCYTSBcYfADJRA?usp=sharing)**
 
-## Task1: Random Deformation Augmented ResEncUNet with Dice Loss only and 3 folds Ensambale(PC-task1-Final)
-
-### Random Deformation
-
+## Random Deformation
 The random deformation module applies smooth deformation fields to medical images and labels, ensuring realistic and anatomically plausible augmentations for deep learning training. A smooth deformation field **$$D(x)$$** is generated as the sum of local displacements across all labeled structures. For a labeled structure with mask **$$M(x)$$**, the displacement at voxel **x** is computed as:
 
 $$
@@ -32,12 +29,19 @@ $$
 
 with constraints to ensure the maximum displacement satisfies **$$\|D(x)\| \leq d_{\text{max}}$$**, preventing extreme deformations. The output is interpolated using linear methods for images and nearest-neighbor methods for labels, ensuring consistency in segmentation tasks. This method generates natural spatial variability while preserving anatomical integrity, making it suitable for tasks like medical image segmentation.
 
+## Task1: Random Deformation Augmented ResEncUNet with Dice Loss only and 3 folds Ensambale(PC-task1-Final)
+
 ### Solution Workflow
 ![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task1.png)
+
 ## Task2: Ultra-Random Deformation Augmented TotalSegmentator-Based ROI ResEncUNet with Dice Loss only and 3 folds Ensambale(原神，启动！)
 
 ### Solution Workflow
 ![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2.png)
+
+### What we've tried on the performance
+![](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/task2.png)
+
 ## Leadearboard 
 **We are at the 5th place: PC-task1-Final**
 **![Leader Board of Task1](https://github.com/DumanHaoqian/PolySmart-Panther-Challenge-Solution/blob/main/Images/LB1.png)**<br>
@@ -55,3 +59,9 @@ with constraints to ensure the maximum displacement satisfies **$$\|D(x)\| \leq 
 **2. [nnUNet](https://github.com/MIC-DKFZ/nnUNet)  
    Licensed under [Apache 2.0 License](https://github.com/MIC-DKFZ/nnUNet/blob/master/LICENSE).  
    nnUNet is a self-adapting framework for biomedical image segmentation.**
+
+**3. A robust auto-contouring and data augmentation pipeline for adaptive MRI-guided radiotherapy of pancreatic cancer with a limited dataset
+DOI: 10.1088/1361-6560/ad9ac7
+Published in: Physics in Medicine & Biology, January 30, 2025
+PMID: 39823751
+This work presents a fast and robust deep learning-based auto-segmentation approach using novel data augmentation techniques to address time-intensive manual contouring in online adaptive MRI-guided radiotherapy for pancreatic cancer.**
