@@ -118,7 +118,8 @@ def create_smooth_deformation_field(image_shape, label_array, spacing, max_displ
     print(f"创建平滑形变场 - 最大位移: {max_displacement}mm")
 
     # 减小最大位移避免过度形变
-    #max_displacement = min(max_displacement, 20.0)
+    # this is for Task 2
+    max_displacement = min(max_displacement, 20.0)
 
     total_field = np.zeros((*image_shape, 3))
     unique_labels = np.unique(label_array)[1:]  # 排除背景
@@ -629,4 +630,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
